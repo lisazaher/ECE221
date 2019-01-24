@@ -1,9 +1,0 @@
-function [y]= part2(range)
-y=0;
-
-x = linspace(range(1), range(2), 100);
-y= 2*x;
-
-for a=1:100
-    temp = x(a) 
-end
